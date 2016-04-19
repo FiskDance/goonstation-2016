@@ -1,6 +1,6 @@
 //PDA program for displaying engine data and laser output. By FishDance
 //Note: Could display weird results if there is more than one engine or PTL around. 
-/datum/computer/file/pda_program/power_status
+/datum/computer/file/pda_program/power_checker
 	name = "Power Checker 0.14"
 	size = 4
 	
