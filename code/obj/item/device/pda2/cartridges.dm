@@ -34,6 +34,7 @@
 			src.root.add_file( new /datum/computer/file/pda_program/records/security(src))
 			src.root.add_file( new /datum/computer/file/pda_program/records/medical(src))
 			src.root.add_file( new /datum/computer/file/pda_program/security_ticket(src))
+			src.root.add_file( new /datum/computer/file/pda_program/power_checker(src))
 			//src.root.add_file( new /datum/computer/file/pda_program/hologram_control(src))
 			src.file_amount = src.file_used
 			src.read_only = 1
@@ -50,6 +51,7 @@
 			src.root.add_file( new /datum/computer/file/pda_program/scan/forensic_scan(src))
 			src.root.add_file( new /datum/computer/file/pda_program/records/security(src))
 			src.root.add_file( new /datum/computer/file/pda_program/security_ticket(src))
+			src.root.add_file( new /datum/computer/file/pda_program/power_checker(src))
 			src.read_only = 1
 
 	ai
@@ -71,6 +73,7 @@
 			src.root.add_file( new /datum/computer/file/pda_program/packet_sniffer(src) )
 			src.root.add_file( new /datum/computer/file/pda_program/packet_sender(src) )
 			src.root.add_file( new /datum/computer/file/text/diagnostic_readme(src))
+			src.root.add_file( new /datum/computer/file/pda_program/power_checker(src))
 			src.read_only = 1
 
 	cyborg
@@ -93,6 +96,7 @@
 			src.root.add_file( new /datum/computer/file/pda_program/packet_sniffer(src) )
 			src.root.add_file( new /datum/computer/file/pda_program/packet_sender(src) )
 			src.root.add_file( new /datum/computer/file/text/diagnostic_readme(src))
+			src.root.add_file( new /datum/computer/file/pda_program/power_checker(src))
 			src.read_only = 1
 
 	research_director
@@ -193,6 +197,7 @@
 			src.root.add_file( new /datum/computer/file/pda_program/scan/health_scan(src))
 			src.root.add_file( new /datum/computer/file/pda_program/records/security(src))
 			src.root.add_file( new /datum/computer/file/pda_program/security_ticket(src))
+			src.root.add_file( new /datum/computer/file/pda_program/power_checker(src))
 			src.file_amount = src.file_used
 			src.read_only = 1
 
@@ -229,6 +234,15 @@
 			src.root.add_file( new /datum/computer/file/pda_program/qm_records(src))
 			src.root.add_file( new /datum/computer/file/pda_program/bot_control/mulebot(src))
 			src.read_only = 1
+	
+	engineer
+		name = "Engine-buddy Atmospherics Cartridge"
+		desc = "Great for the enterprising engineer in everyone!"
+			..()
+			src.root.add_file( new /datum/computer/file/pda_program/power_checker(src))
+			src.root.add_file( new /datum/computer/file/pda_program/atmos_alerts(src))
+			src.root.add_file( new /datum/computer/file/pda_program/signaler(src))
+			src.root.add_file( new /datum/computer/file/pda_program/scan/health_scan(src))
 
 	clown
 		name = "Honkworks 5.0"
