@@ -474,7 +474,8 @@
 		product_list += new/datum/data/vending_product("/obj/item/disk/data/cartridge/diagnostics", 2, cost=70)
 		product_list += new/datum/data/vending_product("/obj/item/disk/data/cartridge/game_codebreaker", 4, cost=25)
 		product_list += new/datum/data/vending_product("/obj/item/device/pda_module/flashlight/high_power", 2, cost=100)
-
+		product_list += new/datum/data/vending_product("/obj/item/disk/data/cartridge/engineer", 2, cost=70)
+		
 		product_list += new/datum/data/vending_product("/obj/item/disk/data/cartridge/security", 1, cost=80, hidden=1)
 		product_list += new/datum/data/vending_product("/obj/item/disk/data/cartridge/head", 1, cost=100, hidden=1)
 		product_list += new/datum/data/vending_product("/obj/item/disk/data/cartridge/clown", 1, cost=200, hidden=1)
